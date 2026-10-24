@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Order Enquiry — explore juices, smoothies, shakes and healthy snacks at Juice Bar &amp; Smoothie Café. Illustrative café template."
+    />
+    <meta name="theme-color" content="#FAF7EF" />
+    <link
+      rel="canonical"
+      href="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/order.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Order Enquiry | Juice Bar &amp; Smoothie Café" />
+    <meta
+      property="og:description"
+      content="Order Enquiry — explore juices, smoothies, shakes and healthy snacks at Juice Bar &amp; Smoothie Café. Illustrative café template."
+    />
+    <meta
+      property="og:url"
+      content="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/order.html"
+    />
+    <meta
+      property="og:image"
+      content="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/fresh-29.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Colourful juice bottles with fresh fruits and greens"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Order Enquiry | Juice Bar & Smoothie Café",
+        "url": "https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/order.html",
+        "description": "Order Enquiry — explore juices, smoothies, shakes and healthy snacks at Juice Bar & Smoothie Café. Illustrative café template.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Juice Bar & Smoothie Café",
+          "url": "https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site"
+        }
+      }
+    </script>
+    <title>Order Enquiry | Juice Bar &amp; Smoothie Café</title>
+    <link rel="icon" href="logo-mark.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="outfit-variable.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <script src="theme-init.js"></script>
+    <link rel="stylesheet" href="site.css" />
+    <style>
+      /* order.html: page stylesheet entry; shared layers preserve the original cascade. */
+
+      /* Reference-inspired standalone order page, in the original Coconut Cream palette. */
+      .page-order {
+        background: var(--bg);
+      }
+      .order-appearance {
+        position: absolute;
+        inset-block-start: 26px;
+        inset-inline-end: max(22px, calc((100vw - 1510px) / 2));
+        display: flex;
+        gap: 10px;
+        z-index: 5;
+      }
+      .order-appearance .icon-btn {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        background: var(--surface);
+      }
+      .order-layout {
+        width: min(1320px, 100%);
+        margin-inline: auto;
+        padding: 100px 64px 70px;
+        display: grid;
+        grid-template-columns: 1fr 1.03fr;
+        gap: 90px;
+        align-items: start;
+      }
+      .order-story {
+        padding-block-start: 80px;
+        animation: rise 0.5s ease both;
+      }
+      .order-story .brand {
+        width: fit-content;
+      }
+      .order-story .brand img {
+        width: 58px;
+        height: 58px;
+      }
+      .order-story .brand b {
+        font-size: 30px;
+      }
+      .order-tagline {
+        font-size: 12px;
+        color: var(--muted-ink);
+        margin: 10px 0 56px;
+      }
+      .order-story > .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+      }
+      .order-story h1 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(42px, 4.25vw, 66px);
+        font-weight: 800;
+        line-height: 1.08;
+        letter-spacing: -0.055em;
+        margin: 26px 0;
+      }
+      .order-story h1 em {
+        font-style: normal;
+        color: var(--primary-ink);
+      }
+      .order-intro {
+        font-size: 17px;
+        line-height: 1.8;
+        color: var(--muted-ink);
+        max-width: 430px;
+      }
+      .order-illustration {
+        width: min(290px, 85%);
+        margin: 58px auto 60px;
+        position: relative;
+        text-align: center;
+      }
+      .order-illustration svg {
+        display: block;
+        width: 100%;
+        overflow: visible;
+      }
+      .order-illustration figcaption {
+        position: relative;
+        margin-top: -17px;
+        padding: 10px 18px;
+        border: 1px solid var(--border);
+        border-radius: 99px;
+        background: var(--surface);
+        color: var(--primary-ink);
+        font-size: 11px;
+        font-weight: 700;
+        width: fit-content;
+        margin-inline: auto;
+      }
+      .art-ring {
+        fill: var(--surface-2);
+        stroke: var(--secondary-ink);
+        stroke-width: 1;
+        stroke-dasharray: 3 4;
+      }
+      .art-cup,
+      .art-straw,
+      .art-fruit,
+      .art-leaf,
+      .art-spark {
+        fill: none;
+        stroke-width: 4;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+      .art-cup,
+      .art-straw {
+        stroke: var(--primary);
+      }
+      .art-fruit {
+        fill: var(--surface);
+        stroke: var(--secondary-ink);
+        stroke-width: 3;
+      }
+      .art-leaf {
+        stroke: var(--primary-ink);
+        stroke-width: 3;
+      }
+      .art-spark {
+        stroke: var(--secondary-ink);
+      }
+      .order-back {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        min-height: 44px;
+        color: var(--primary-ink);
+        font-size: 14px;
+        font-weight: 700;
+      }
+      [dir="rtl"] .order-back .icon {
+        transform: rotate(180deg);
+      }
+      .order-card {
+        padding: 38px;
+        border: 1px solid var(--border);
+        border-radius: 30px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        animation: rise 0.6s ease both;
+        min-width: 0;
+      }
+      .order-card > .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.17em;
+      }
+      .order-card h2 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(25px, 2.5vw, 34px);
+        font-weight: 800;
+        letter-spacing: -0.045em;
+        margin: 12px 0;
+      }
+      .order-card-intro {
+        font-size: 15px;
+        color: var(--muted-ink);
+        margin: 0 0 29px;
+        line-height: 1.65;
+      }
+      .order-card .field {
+        margin-bottom: 21px;
+      }
+      .order-card label {
+        font-size: 13px;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .order-card label span {
+        color: var(--muted-ink);
+        font-weight: 400;
+      }
+      .order-card input,
+      .order-card select,
+      .order-card textarea {
+        background: var(--bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 13px;
+        padding: 14px 16px;
+        font-size: 14px;
+        width: 100%;
+        min-height: 50px;
+      }
+      .order-card input::placeholder,
+      .order-card textarea::placeholder {
+        color: var(--muted-ink);
+        opacity: 1;
+      }
+      .order-card input[type="datetime-local"] {
+        min-width: 0;
+        appearance: auto;
+      }
+      .order-card select {
+        padding-inline-end: 32px;
+      }
+      .order-card textarea {
+        resize: vertical;
+      }
+      .order-quantity-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 6px 23px;
+        gap: 15px;
+      }
+      .order-quantity-row label {
+        margin: 0;
+      }
+      .quantity-stepper {
+        display: flex;
+        border: 1px solid var(--border);
+        border-radius: 99px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .quantity-stepper button {
+        border: 0;
+        background: var(--surface-2);
+        color: var(--text);
+        width: 44px;
+        min-height: 44px;
+        font-size: 21px;
+      }
+      .quantity-stepper button:hover:not(:disabled) {
+        background: var(--primary);
+        color: var(--on-primary);
+      }
+      .quantity-stepper button:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+      .quantity-stepper input {
+        width: 44px;
+        border: 0;
+        border-radius: 0;
+        padding: 5px;
+        min-height: 44px;
+        text-align: center;
+        appearance: textfield;
+        -moz-appearance: textfield;
+      }
+      .quantity-stepper input::-webkit-inner-spin-button,
+      .quantity-stepper input::-webkit-outer-spin-button {
+        appearance: none;
+        margin: 0;
+      }
+      .order-help {
+        color: var(--muted-ink);
+        font-size: 11px;
+        line-height: 1.6;
+        margin: 8px 0 0;
+      }
+      .order-selection {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        align-items: center;
+        padding: 18px;
+        background: var(--surface-2);
+        border-radius: 16px;
+      }
+      .order-selection strong {
+        display: block;
+        font-size: 14px;
+      }
+      .order-selection span {
+        display: block;
+        margin-top: 4px;
+        font-size: 12px;
+        color: var(--muted-ink);
+      }
+      .order-selection .selection-price {
+        color: var(--primary-ink);
+        font-size: 26px;
+        white-space: nowrap;
+      }
+      .order-demo {
+        font-size: 11px;
+        color: var(--muted-ink);
+        line-height: 1.75;
+        margin: 15px 0 20px;
+      }
+      .order-review-button {
+        width: 100%;
+        justify-content: center;
+        gap: 16px;
+        min-height: 52px;
+        font-size: 14px;
+      }
+      .saved-enquiry {
+        margin-top: 14px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+      }
+      .saved-enquiry summary {
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 700;
+        min-height: 44px;
+      }
+      .saved-enquiry summary span {
+        display: inline-block;
+        color: var(--muted-ink);
+        font-size: 11px;
+        margin-inline-start: 6px;
+      }
+      .saved-actions,
+      .review-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      .saved-actions .btn {
+        font-size: 11px;
+        padding: 10px 14px;
+      }
+      .saved-item {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: space-between;
+        padding-block: 14px;
+        border-bottom: 1px solid var(--border);
+      }
+      .saved-item p {
+        margin: 5px 0 0;
+        color: var(--muted-ink);
+        font-size: 12px;
+      }
+      .saved-item strong {
+        font-size: 13px;
+      }
+      .saved-item button {
+        padding: 8px;
+        font-size: 11px;
+      }
+      .saved-subtotal {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 15px;
+      }
+      .order-review-dialog {
+        width: min(560px, calc(100% - 32px));
+        max-height: calc(100svh - 40px);
+        overflow: auto;
+        padding: 30px;
+        border: 1px solid var(--border);
+        border-radius: 26px;
+        background: var(--surface);
+        color: var(--text);
+        box-shadow: var(--shadow);
+      }
+      .order-review-dialog::backdrop {
+        background: var(--overlay);
+        backdrop-filter: blur(4px);
+      }
+      .review-title-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .order-review-dialog h2 {
+        font-size: 31px;
+        margin: 20px 0;
+      }
+      .review-row {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+        gap: 15px;
+        padding-block: 10px;
+        border-bottom: 1px solid var(--border);
+        font-size: 13px;
+      }
+      .review-row dt {
+        font-weight: 700;
+      }
+      .review-row dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+        white-space: pre-wrap;
+      }
+      .order-card [aria-invalid="true"] {
+        border-color: var(--danger);
+      }
+      .order-card .field-error {
+        margin: 7px 0;
+        font-size: 12px;
+      }
+      .page-order :focus-visible {
+        outline: 3px solid var(--focus);
+        outline-offset: 4px;
+      }
+      @media (max-width: 1100px) {
+        .order-layout {
+          padding-inline: 36px;
+          gap: 44px;
+        }
+        .order-card {
+          padding: 28px;
+        }
+        .order-story h1 {
+          font-size: 48px;
+        }
+      }
+      @media (max-width: 800px) {
+        .order-layout {
+          grid-template-columns: 1fr;
+          max-width: 620px;
+          padding: 92px 24px 40px;
+          gap: 32px;
+        }
+        .order-story {
+          padding-top: 0;
+        }
+        .order-tagline {
+          margin-bottom: 32px;
+        }
+        .order-story h1 {
+          font-size: clamp(40px, 8vw, 56px);
+        }
+        .order-intro {
+          max-width: 500px;
+        }
+        .order-illustration {
+          display: none;
+        }
+        .order-back {
+          margin-top: 8px;
+        }
+        .order-card {
+          border-radius: 24px;
+        }
+      }
+      @media (max-width: 400px) {
+        .order-layout {
+          padding-inline: 16px;
+        }
+        .order-card {
+          padding: 22px 18px;
+        }
+        .order-story .brand b {
+          font-size: 25px;
+        }
+        .order-story .brand img {
+          width: 48px;
+          height: 48px;
+        }
+        .order-card h2 {
+          font-size: 28px;
+        }
+        .review-row {
+          grid-template-columns: 80px 1fr;
+          gap: 10px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .order-story,
+        .order-card {
+          animation: none;
+        }
+        .page-order * {
+          scroll-behavior: auto;
+          transition: none;
+        }
+      }
+    </style>
+    <script type="module" src="order.js"></script>
+    <script src="animations.js" defer></script>
+    <script src="refinements.js" defer></script>
+    <link rel="stylesheet" href="banner-buttons-update.css" />
+  </head>
+  <body class="page-order">
+    <a href="#main" class="skip-link">Skip to order form</a>
+    <div
+      class="order-appearance"
+      role="group"
+      aria-label="Appearance and text direction"
+    >
+      <button
+        class="icon-btn"
+        type="button"
+        data-theme-toggle
+        aria-label="Switch to dark theme"
+        title="Switch theme"
+      >
+        <span data-theme-icon
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.8 13A9 9 0 0 1 11 3.2 9 9 0 1 0 20.8 13Z" /></svg
+        ></span>
+      </button>
+      <button
+        class="icon-btn"
+        type="button"
+        data-direction
+        aria-label="Switch to right-to-left layout"
+        title="Switch text direction"
+      >
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 7h15m-4-4 4 4-4 4M20 17H5m4-4-4 4 4 4" />
+        </svg>
+      </button>
+    </div>
+    <main id="main" class="order-layout">
+      <section class="order-story" aria-labelledby="order-title">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Juice Bar &amp; Smoothie Café home"
+          ><img src="logo-mark.svg" alt="" width="53" height="53" /><span
+            ><b>Juice <span>Bar</span></b
+            ><small>&amp; Smoothie Café</small></span
+          ></a
+        >
+        <p class="order-tagline">Fresh sips. Happy moments.</p>
+        <span class="eyebrow">Your fresh moment starts here</span>
+        <h1 id="order-title">A little sip.<br /><em>A lot of happiness.</em></h1>
+        <p class="order-intro">
+          Pick your favourite blend, choose your quantity, and make your day a little
+          fresher.
+        </p>
+        <figure class="order-illustration">
+          <svg viewBox="0 0 320 320" role="img" aria-labelledby="cup-title">
+            <title id="cup-title">
+              A fresh smoothie with a straw, citrus slice and tropical leaves
+            </title>
+            <circle class="art-ring" cx="160" cy="160" r="147" />
+            <path
+              class="art-leaf"
+              d="M217 189c18-44 59-51 70-50-2 38-27 62-70 50Zm-3 0 51-34M97 221c-32-4-58-27-58-52 36-3 57 16 58 52Zm-3-6-35-29"
+            />
+            <path
+              class="art-cup"
+              d="M99 100h120l-19 167h-81L99 100Zm-6 0h132M127 130h65l-12 108h-41l-12-108Z"
+            />
+            <path class="art-straw" d="m162 156 24-110h37M186 47h37" />
+            <circle class="art-fruit" cx="104" cy="100" r="36" />
+            <path class="art-fruit" d="M104 65v70m-35-35h70M79 75l50 50m0-50-50 50" />
+            <path
+              class="art-spark"
+              d="m63 65 3-13m-17 32-11-5m207 154 8 10m-18 4-4 11"
+            />
+          </svg>
+          <figcaption>Made for feel-good moments</figcaption>
+        </figure>
+        <a href="index.html" class="order-back"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 12H4m6-6-6 6 6 6" /></svg
+          >Back to Home</a
+        >
+      </section>
+      <section class="order-card" aria-labelledby="form-heading">
+        <span class="eyebrow">Build your enquiry</span>
+        <h2 id="form-heading">What are you craving?</h2>
+        <p class="order-card-intro">
+          Choose your fresh favourite and pickup preferences.
+        </p>
+        <form id="fresh-order-form" novalidate>
+          <div class="field">
+            <label for="order-category">Menu category</label
+            ><select id="order-category" name="category" required>
+              <option value="Juices">Juices</option>
+              <option value="Smoothies">Smoothies</option>
+              <option value="Shakes">Shakes</option>
+              <option value="Healthy Snacks">Healthy Snacks</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="order-product">Choose your favourite</label
+            ><select id="order-product" name="product" required></select>
+          </div>
+          <div class="order-quantity-row">
+            <label for="order-quantity">Quantity</label>
+            <div class="quantity-stepper">
+              <button type="button" id="quantity-less" aria-label="Decrease quantity">
+                −</button
+              ><input
+                type="number"
+                id="order-quantity"
+                name="quantity"
+                value="1"
+                min="1"
+                max="20"
+                required
+                inputmode="numeric"
+                aria-describedby="quantity-error"
+              /><button type="button" id="quantity-more" aria-label="Increase quantity">
+                +
+              </button>
+            </div>
+          </div>
+          <p class="field-error" id="quantity-error" hidden></p>
+          <div class="field">
+            <label for="order-name">Full name</label
+            ><input
+              id="order-name"
+              name="fullName"
+              autocomplete="name"
+              placeholder="Enter your full name"
+              minlength="2"
+              maxlength="80"
+              required
+              aria-describedby="order-name-error"
+            />
+            <p class="field-error" id="order-name-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="order-phone">Phone number</label
+            ><input
+              id="order-phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              placeholder="Enter your phone number"
+              maxlength="25"
+              required
+              aria-describedby="order-phone-error"
+            />
+            <p class="field-error" id="order-phone-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="order-pickup">Preferred pickup time</label
+            ><input
+              id="order-pickup"
+              name="pickup"
+              type="datetime-local"
+              required
+              aria-describedby="pickup-help order-pickup-error"
+            />
+            <p id="pickup-help" class="order-help">
+              A preference only. The café must confirm availability.
+            </p>
+            <p class="field-error" id="order-pickup-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="order-notes">Order notes <span>(optional)</span></label
+            ><textarea
+              id="order-notes"
+              name="notes"
+              rows="3"
+              maxlength="1000"
+              placeholder="Any preferences or special requests?"
+            ></textarea>
+          </div>
+          <div class="order-selection" aria-live="polite" aria-atomic="true">
+            <div>
+              <strong id="selected-name">Choose a favourite</strong
+              ><span id="selected-quantity">1 item</span>
+            </div>
+            <strong id="selected-total" class="selection-price">₹0</strong>
+          </div>
+          <p class="order-demo">
+            Sample menu and prices. This preview does not send an order, reserve pickup
+            or collect payment. Contact details stay in this form unless you download
+            them.
+          </p>
+          <button class="btn btn-primary order-review-button" type="submit">
+            Review My Enquiry
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 12h16m-6-6 6 6-6 6" />
+            </svg>
+          </button>
+          <p id="order-result" class="result" role="status"></p>
+        </form>
+        <details class="saved-enquiry">
+          <summary>Saved enquiry list <span id="saved-count">0 items</span></summary>
+          <p class="order-help">
+            Products and quantities are saved only in this browser. Personal details are
+            not saved.
+          </p>
+          <div id="saved-order-list"></div>
+          <p id="saved-order-total" class="saved-subtotal"></p>
+          <div class="saved-actions">
+            <button type="button" class="btn btn-outline" id="download-saved">
+              Download list</button
+            ><button type="button" class="btn btn-outline" id="clear-saved">
+              Clear list
+            </button>
+          </div>
+        </details>
+      </section>
+    </main>
+    <dialog
+      id="order-review"
+      class="order-review-dialog"
+      aria-labelledby="review-title"
+      aria-describedby="review-notice"
+    >
+      <div class="review-title-row">
+        <span class="eyebrow">One step closer to fresh</span
+        ><button
+          class="icon-btn"
+          id="close-review"
+          type="button"
+          aria-label="Close enquiry review"
+        >
+          ×
+        </button>
+      </div>
+      <h2 id="review-title">Your fresh little moment.</h2>
+      <div id="review-details"></div>
+      <p id="review-notice" class="order-demo">
+        Review only — nothing has been sent or confirmed. Save the product to your local
+        list, or download this enquiry to share with the café yourself.
+      </p>
+      <div class="review-actions">
+        <button class="btn btn-primary" id="save-reviewed" type="button">
+          Add to enquiry list</button
+        ><button class="btn btn-outline" id="download-reviewed" type="button">
+          Download this enquiry
+        </button>
+      </div>
+      <p id="review-result" class="result" role="status"></p>
+    </dialog>
+    <div class="toast" id="toast" role="status" hidden></div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="440"
+  height="100"
+  viewBox="0 0 440 100"
+  role="img"
+  aria-labelledby="title"
+>
+  <title id="title">Juice Bar &amp; Smoothie Café citrus and leaf logo</title>
+  <g transform="translate(4 10) scale(1.2)">
+    <rect
+      x="7"
+      y="9"
+      width="50"
+      height="50"
+      rx="17"
+      fill="#E6C98A"
+      transform="rotate(-12 32 34)"
+    />
+    <path d="M17 35a16 16 0 0 0 32 0Z" fill="#FAF7EF" />
+    <path d="m32 36-10 9m10-9v14m0-14 10 9" stroke="#B48A64" stroke-width="2.5" />
+    <path d="M31 30c-2-13 10-20 21-17-2 12-10 18-21 17Z" fill="#557A46" />
+    <path d="m30 32 14-12" stroke="#FAF7EF" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <text
+    x="94"
+    y="53"
+    font-family="Arial,sans-serif"
+    font-size="38"
+    font-weight="700"
+    letter-spacing="-1.5"
+    fill="#302F28"
+  >
+    Juice
+    <tspan fill="#557A46">Bar</tspan>
+  </text>
+  <text
+    x="97"
+    y="77"
+    font-family="Arial,sans-serif"
+    font-size="13"
+    letter-spacing="3"
+    fill="#79786C"
+  >
+    &amp; SMOOTHIE CAFÉ
+  </text>
+</svg>

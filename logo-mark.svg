@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  role="img"
+  aria-label="Juice Bar citrus and leaf logo"
+>
+  <rect
+    x="7"
+    y="9"
+    width="50"
+    height="50"
+    rx="17"
+    fill="#E6C98A"
+    transform="rotate(-12 32 34)"
+  />
+  <path d="M17 35a16 16 0 0 0 32 0Z" fill="#FAF7EF" />
+  <path d="m32 36-10 9m10-9v14m0-14 10 9" stroke="#B48A64" stroke-width="2.5" />
+  <path d="M31 30c-2-13 10-20 21-17-2 12-10 18-21 17Z" fill="#557A46" />
+  <path d="m30 32 14-12" stroke="#FAF7EF" stroke-width="2" stroke-linecap="round" />
+</svg>
